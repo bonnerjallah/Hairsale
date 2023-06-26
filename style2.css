@@ -1,0 +1,390 @@
+.abtcontainer {
+   display: flex;
+   flex-direction: column;   
+}
+
+.abtcontainer h1 {
+    text-align: center;
+}
+
+.abt {
+    display: flex;
+    background-color: #17353a;
+}
+
+.pic1 {
+    width: 200%;
+    height: 400px;
+    margin: 50px 10px 10px 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .story{
+    margin-right: 10px;
+    height: 400px;
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px 10px ;
+    overflow: hidden;
+    font-size: 1.2rem;
+ }
+
+ .abtcontainer2 {
+    display: flex;
+    margin: 20px 0px 60px 0px;
+    background-color: #17353a;
+
+ }
+
+ .story2 {
+    margin-right: 10px;
+    height: 400px;
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 50px 10px ;
+    overflow: hidden;
+    font-size: 1.2rem;  
+ }
+
+ .img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+   text-align: center;
+   font-size: 1.5rem;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.titlecontainer {
+   background-color: #17353a;
+   height: 800px;
+   display: flex;
+   padding: 50px;
+}
+
+.miniimage {
+   height: 150px;
+   width: 100px;
+   margin: 10px;
+}
+
+.miniimage img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.largeimage {
+   height: 85%;
+   width: 40%;
+   margin: 10px;
+}
+
+.largeimage img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.itemdisbox {
+   width: 55%;
+   margin: 10px;
+}
+
+.discript p {
+   font-size: 1.2rem;
+}
+
+.itemsamount {
+   font-size: 2rem;
+   color:  rgba(146,161,15,1);
+}
+
+.lengthcontainer {
+   text-align: center;
+   height: 200px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+.lengthbox {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   height: 200px;
+   row-gap: 10px;  
+}
+
+/*MINI LENGTH BOX*/
+
+.minilgtbox {
+   width: 40px;
+   height: 50px;
+   border: 2px solid black;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   font-size: 1.4rem;
+   color:  rgba(146,161,15,1);
+   
+}
+
+.quantity-box {
+   margin-top: 20px;
+   text-align: center;
+   height: 100px;
+   padding-right: 30px;
+}
+
+.quantity-box input {
+   height: 30%;
+   width: 10%;
+   text-align: center;
+   font-size: 1.5rem;
+}
+
+.add-to {
+   height: 100px;
+   display: flex;
+   justify-content: center;
+}
+
+.add-bttn {
+   width: 40%;
+   height: 45%;
+   margin: 10px;
+   font-size: 1.3rem;
+   color:rgba(146,161,15,1);  
+}
+
+.related, .recently {
+   background-color: #17353a;
+   margin-bottom: 50px;
+   height: 480px;
+   display: flex;
+   flex-direction: column;
+}
+
+.related-item, .recently-item {
+   width: 20%;
+   margin: 20px;
+   text-align: center;
+}
+
+.related h3, .recently h3 {
+   text-align: center;
+}
+
+.logincontainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   background-color: #17353a;
+   margin-top: 20px;
+   margin-bottom: 60px;
+   justify-content: space-evenly;
+}
+
+.login-signup {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   padding: 20px;
+   width: 85%;
+   height: 70%;
+}
+
+.login {
+   display: flex;
+   justify-content: space-between;
+   width: 40%;
+   height: 80%;
+   border-radius: 10px;
+   
+}
+
+.login h2 {
+   text-align: center;
+   background: linear-gradient(90deg, rgba(75,80,36,1) 0%, rgba(146,161,15,1) 100%);
+   margin-top: 0;
+   height: 20%;
+   width: 430px;
+   display: flex;
+   justify-content: center;
+   border-radius: 10px;
+   font-size: 2rem;
+}
+
+.login input {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+}
+
+.singup {
+   background: linear-gradient(90deg, rgba(75,80,36,1) 0%, rgba(146,161,15,1) 100%);
+   width: 60%;
+   height: 100%;
+   border-radius: 10px;
+   padding-left: 20px;
+}
+
+.singup h2 {
+   text-align: center;
+   margin-top: 0;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   font-size: 2rem;
+}
+
+.singup input{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+}
+
+.singup label:before {
+   content: "*";
+   color: red;
+}
+
+.hairbundles-container {
+   display: grid;
+   grid-template-rows: 5% 2fr;
+   grid-template-columns: 1fr 2fr;
+   gap: 10px;
+}
+
+.hairbundles-header {
+   grid-column: span 2;
+   text-align: center;
+   margin: auto;
+}
+
+.sidebar {
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+
+
+.sidebar li {
+   margin: 10px;
+}
+.cards {
+   display: flex;
+   justify-content: center;
+   row-gap: 30px;
+   column-gap: 20px;
+   background-color: #17353a;
+   flex-wrap: wrap;
+   padding: 20px;
+   width: 79vw;
+   margin-right: 10px;
+}
+
+.carditem {
+   width: 220px;
+   height: 435px;
+   display: flex;
+   flex-direction: column;
+   font-size: 1.2rem;
+   text-align: center;
+   background-color: rgba(75,80,36,1);
+}
+
+.carditem-model {
+   display: flex;
+   width: 100%;
+   height: 60%;
+}
+
+.carditem-model img {
+   object-fit: cover;
+   width: 50%;
+
+}
+
+.contactcontainer {
+   display: flex;
+   flex-direction: column;
+   background-color: #17353a;
+   margin-top: 20px;
+   margin-bottom: 60px;
+}
+
+.contactcontainer h1, .thanks {
+   text-align: center;
+}
+
+.contactformbox2 {
+   display: flex;
+}
+
+.formbuttonbox {
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   gap: 10px;
+   height: 500px;
+}
+
+.formbuttonbox button {
+   width: 65%;
+   height: 15%;
+   font-size: 1.2rem;
+   border-radius: 10px;
+   margin-left: 150px;
+   cursor: pointer;
+   background: linear-gradient(90deg, rgba(75,80,36,1) 0%, rgba(146,161,15,1) 100%);
+}
+
+.formbox {
+   margin: 10px;
+   background: linear-gradient(90deg, rgba(75,80,36,1) 0%, rgba(146,161,15,1) 100%);
+   display: none; /* Initially hidden */
+   flex-direction: column;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.formboxdisplay {
+   margin: 10px;
+   background: linear-gradient(90deg, rgba(75,80,36,1) 0%, rgba(146,161,15,1) 100%);
+   display: flex; 
+   flex-direction: column;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.formbox input {
+   margin-bottom: 20px;
+}
+
+.policy, .terms {
+   background-color: #17353a;
+   padding: 20px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+
+
+
